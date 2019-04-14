@@ -1,0 +1,107 @@
+body{
+    height: 100vh;
+    background-color: #ad777f;
+    background-color:gray;
+    margin: 0;
+    color:#fcd4a4
+    padding: 0;
+
+
+}
+
+header{
+    height: 15vh;
+    background-color: lightcoral;
+    position: absolute;
+    top:0;
+    width: 100%;
+    text-align: center;
+    font-size:25px;    font-family: 'Bungee Shade', cursive;
+
+}
+
+header > h1{
+    margin-top:0px;
+}
+
+#game{
+    height: 75vh;
+    padding-top: 15vh;
+}
+#scoreBoard{
+    width: 400px;
+    height: 150px;
+    border: 3px solid black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+        font-family: 'Bungee Shade', cursive;
+
+}
+
+.player{
+    position: absolute;
+    background-color: lightcoral;
+    height: 100%;
+    width: 25%;
+    line-height: 150px;
+    font-size: 30px;
+    top:0%;
+    left:0%;
+}
+.player:nth-child(2){
+    left: 75%;
+}
+
+.score{
+    font-size: 25px;
+    margin-top: -100px;
+    display: inline-block;
+}
+
+#choices{
+    padding-top:50px;
+    text-align: center;
+}
+
+.choice{
+    display: inline-block;
+    padding: 40px;
+    font-size: 70px;
+    border:3px solid black;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    cursor: pointer;
+}
+
+#result{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+        font-family: 'Bungee Shade', cursive;
+}
+
+
+footer{
+    height: 8vh;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+
+.win{
+    background-color: green;
+}
+
+.lose{
+    background-color: red;
+}
+
+.draw{
+    background-color: white;
+}
